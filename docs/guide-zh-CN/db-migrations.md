@@ -152,7 +152,7 @@ migration 的基类 [[yii\db\Migration]] 通过 [[yii\db\Migration::db|db]] 属�
 > Tip: 抽象类型和实体类型之间的映射关系是由每个具体的 `QueryBuilder` 
   类当中的 [[yii\db\QueryBuilder::$typeMap|$typeMap]] 属性所指定的。
   
-Since version 2.0.6, you can make use of the newly introduced schema builder which provides more convenient way of defining column schema.
+从2.0.6版本起, you can make use of the newly introduced schema builder which provides more convenient way of defining column schema.
 So the migration above could be written like the following:
 
 ```php
